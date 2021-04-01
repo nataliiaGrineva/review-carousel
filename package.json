@@ -33,9 +33,9 @@
     "stylelint": "^13.6.1"
   },
   "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint",
-      "pre-push": "npm run lint"
-    }
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "font-awesome": "^4.7.0"
   }
 }

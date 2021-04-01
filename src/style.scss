@@ -1,4 +1,54 @@
-h1 {
-  color: red;
-  background-color: blue;
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+.review {
+  margin: 0 auto;
+  border: 2px solid lightcoral;
+  border-radius: 10px;
+  width: 500px;
+  text-align: center;
+  padding: 20px;
 }
+
+.img_container {
+  height: 150px;
+}
+
+#person_img {
+  width: auto;
+  height: 100%;
+  transition: all 1s ease-in-out;
+}
+
+#person_img:hover {
+  transition: all 1 ease-in-out;
+  transform: scale(2, 2);
+}
+
+.text_content {
+  height: 200px;
+}
+
+.random_btn {
+  margin-top: 15px;
+}
+
+.title {
+  text-align: center;
+  color: rgb(98, 168, 211);
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px 2px rgb(20, 20, 20), 0 0 1em blue, 0 0 0.2em rgb(115, 115, 129);
+  font-weight: 400;
+  position: relative;
+  margin-bottom: 50px;;
+  
+}
+
+.title:after {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 50px;
+  left: 40%;
+  right: 40%;
+  border-bottom: 4px solid #32b3c7;
+}
+

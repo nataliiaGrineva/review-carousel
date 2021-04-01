@@ -1,13 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FE Template</title>
-    <link rel="stylesheet" href="style.scss">
-    <script defer src="main.js"></script>
-  </head>
-  <body>
-    <h1>FE Template</h1>
-  </body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Adventure Time Carousel</title>
+        <!-- <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css"> -->
+        <link rel="stylesheet" href="style.scss">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script defer src="main.js"></script>
+    </head>
+    <body>
+        <main>
+            <section class="container">
+                <!-- title -->
+                <div class="title">
+                    <h2>Adventure Time</h2>
+                    <div class="underline"></div>
+                </div>
+                <!-- review -->
+                <article class="review">
+                    <div class="img_container">
+                        <img src="#" id="person_img" alt="img">
+                    </div>
+                    <div class="text_content">
+                        <h4 id="author"></h4>
+                        <p id="job"></p>
+                        <p id="info"></p>
+                    </div>
+                    <!-- prev next buttons -->
+                    <div class="button_container">
+                        <button class="prev_btn btn btn-info" disabled>
+                            <span class="fas fa-chevron-left"></span>
+                        </button>
+                        <button class="next_btn btn btn-info">
+                            <span class="fas fa-chevron-right"></span>
+                        </button>
+                    </div>
+                    <!-- random button -->
+                    <button class="random_btn btn btn-danger">Surprise me!</button>
+                </article>
+            </section>
+        </main>
+    </body>
 </html>
