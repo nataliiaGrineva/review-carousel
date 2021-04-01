@@ -1,1 +1,1 @@
-[DEMO](https://nataliiagrineva.github.io/review-carousel.html)
+[DEMO](https://nataliiagrineva.github.io/review-carousel)
